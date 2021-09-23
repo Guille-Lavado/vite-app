@@ -2,7 +2,12 @@ body{
     background-image: url("/2560x1440.png");
 }
 
-#app {
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#app{
     display: inline-block;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -10,5 +15,5 @@ body{
     text-align: center;
     color: #1c1c1c;
     background: rgba(255,255,255,0.6);
-    width: 100%;
+    width: 70%;
 }
